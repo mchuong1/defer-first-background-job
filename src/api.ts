@@ -1,6 +1,6 @@
-import express from "express";
+const express = require("express");
 
-import helloWorld from "./defer/helloWorld";
+const helloWorld =  require("./defer/helloWorld");
 
 const app = express();
 const port = 3000;
