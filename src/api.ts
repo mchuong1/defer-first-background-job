@@ -1,6 +1,8 @@
-const express = require("express");
+import express from "express";
+import dotenv from "dotenv";
+import helloWorld from './defer/helloWorld';
 
-const helloWorld =  require("./defer/helloWorld");
+dotenv.config();
 
 const app = express();
 const port = 3000;
